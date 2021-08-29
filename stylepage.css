@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100%;
+}
+.main{
+    display:block;
+    width:100%;
+    height:100%;
+    /* border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+}
+.header{
+    display:block;
+    height:100px;
+    width:100%;
+    /* border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+    background-image: linear-gradient(to right, #00C9FF , #92FE9D);
+    color: white;
+}
+.header p{
+    font-size: 40px;
+    padding:20px;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.rest{
+    display:block;
+    height:1200px;
+    width:100%;
+    /* border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+}
+.left{
+    display:block;
+    height:1200px;
+    width:50%;
+    float:left;
+    /* border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+}
+.right{
+    display:block;
+    height:1200px;
+    width:50%;
+    float:right;
+    /* border-radius: 5px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid; */
+}
+table{
+    border: rgb(0, 0, 0);
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+input{
+    margin:0px;
+    padding:0px;
+    border:rgb(21, 6, 233);
+    font-size: 40px;
+    width:100%;
+    height:140px;
+    overflow-x:scroll;
+}
+
+button {
+    position: relative;
+    background-color: #0fcffff5;
+    border: none;
+    font-size: 28px;
+    color: #FFFFFF;
+    width:140px;
+    height:140px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+  }
+  
+button:after {
+    content: "";
+    background: #0181f8;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+  
+button:active:after{
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+.right p{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.rightcl{
+    font-family: 'Montserrat', sans-serif;
+}
